@@ -11,6 +11,7 @@ import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Textarea } from "./ui/textarea";
 
+// eslint-disable-next-line react/prop-types
 export const Widget = ({ projectId }) => {
   const [rating, setRating] = useState(3);
   const [submitted, setSubmitted] = useState(false);
